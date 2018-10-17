@@ -1,4 +1,4 @@
-# Riot - A CLI application which introduces chaos in Kubernetes cluster with the help of open-source Chaos Engineering tools
+# Riot - A CLI application which introduces chaos in Kubernetes cluster using open-source Chaos Engineering tools
 
 Riot is a small app written in Go which can be used to add chaos to the kubernetes cluster.
 
@@ -9,7 +9,7 @@ Riot is a small app written in Go which can be used to add chaos to the kubernet
 ## Installation
 1. Clone the repository.
 2. Run `make all` for creating a binary.
-3. Run `make docker` for building a docker image
+3. Modify `<your-docker-username>` in `Makefile` and run `make docker` for building a docker image
 
 ## Getting Started
 1. Clone the repository and build the binary/docker image.
