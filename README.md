@@ -34,4 +34,4 @@ To all the creators of awesome chaos engineering tools:
 1. [Pumba](https://github.com/alexei-led/pumba) (@alexei-led)
 2. [kube-monkey](https://github.com/asobti/kube-monkey) (@asobti)
 3. [pod-reaper](https://github.com/target/pod-reaper) (@target)
-4. [chaoskube](https://github.com/target/pod-reaper) (@linki)
+4. [chaoskube](https://github.com/linki/chaoskube) (@linki)
