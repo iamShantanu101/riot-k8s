@@ -10,7 +10,7 @@ BUILD=$(shell git rev-parse --short HEAD)
 LDFLAGS=-ldflags "-X main.Version=$(VERSION) -X main.Build=$(BUILD)"
 
 all:
-	go build -o $(BINARY) $(LDFLAGS)
+	go get github.com/iamShantanu101/riot-k8s/cmd && go build -o $(BINARY) $(LDFLAGS)
 
 fmt:
 	find . -name '*.go' -not -wholename './vendor/*' | while read -r file; do gofmt -w -s "$$file"; goimports -w "$$file"; done
