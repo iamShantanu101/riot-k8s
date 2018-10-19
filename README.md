@@ -6,6 +6,7 @@ Riot is a small app written in Go which can be used to add chaos to the kubernet
 1. Kubernetes cluster up and running.
 2. `kubectl`, if running locally.
 3. `Docker`, if running a docker image.
+4. Familiarity with the tools which are going to used.
 
 ## Installation
 1. Clone the repository.
