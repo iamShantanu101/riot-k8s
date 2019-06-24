@@ -14,7 +14,7 @@
 
 package main
 
-import "github.com/iamShantanu101/riot-k8s/cmd"
+import "github.com/ishantanu/riot-k8s/cmd"
 
 func main() {
 	cmd.Execute()
